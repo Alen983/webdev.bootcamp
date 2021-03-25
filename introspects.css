@@ -1,0 +1,202 @@
+.begin{
+    background-color: #e8eef1cc;
+    padding: 50px;
+}
+.form-control{
+    border-color: black;
+    opacity: 50%;
+}
+#abut{
+    list-style: none;
+    float: center;
+    transition: 0.4s;
+    cursor: pointer;
+}
+#abut:hover{
+    transform: rotateY(360deg);
+}
+#img{float:right;
+       margin-left:50px;
+       width: 600px;
+       height: 410px;
+       margin-top: 10px;
+       margin-right: 10px;
+       
+    }
+.starters{
+    margin-top: 90px;
+    font-size: 17px;
+    margin-left:20px;
+    margin-top: 70px;
+    margin-right: 60px;
+    padding-top: 10px;
+    text-align:left;}
+    
+#hd{
+    line-height: 50px;
+    
+        color: rgb(0, 0, 0);
+       
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid rgb(0, 0, 0); /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+         
+        animation: 
+          typing 2s steps(15, end),
+          blink-caret .10s ; }
+      
+      /* The typing effect */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 30% }
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: rgb(255, 255, 255) }
+      }
+
+
+
+
+.navbar-nav{font-size: 21px;
+     gap: 15px;
+        
+    }
+    .btn {
+        margin-bottom: 40px;
+    margin-left: 29px;
+    }
+    
+    .cards{
+        align-items: center;
+    }
+
+.h-100{ 
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+}
+
+.h-100:hover{
+    
+        transform: scale(1.05);
+     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+   
+}
+#contact{
+    background-color: #e8eef1cc;
+}
+        
+#ggtxt{
+    list-style: none;
+    float: center;
+    transition: 0.4s;
+    cursor: pointer;
+}
+#ggtxt:hover{
+    transform: rotateY(360deg);
+}
+
+.bttn {
+    height: 30px;
+    width: 30px;
+    background: #FECD1A;
+    margin-bottom: 40px;
+    margin-left: 29px;
+    border-radius: 5px;
+    color: #000000;
+    display: inline-block;
+    font-size: 14px;
+    padding: 4px 15px;
+    text-decoration: none;
+    text-align: center;
+    min-width: 80px;
+    position: relative;
+    transition: color .1s ease;
+  }
+  
+  .bttn-close {
+    color: #aaa;
+    font-size: 30px;
+    text-decoration: none;
+    position: absolute;
+    right: 5px;
+    top: 0;
+  }
+  .bttn-close:hover {
+    color: #919191;
+  }
+  .jquery-modal:before {
+    content: "";
+    display: none;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+  }
+  .jquery-modal:target:before {
+    display: block;
+  }
+  .jquery-modal:target .jquery-modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    top: 20%;
+  }
+  .jquery-modal-dialog {
+    background: #fefefe;
+    border: #333 solid 1px;
+    border-radius: 5px;
+    margin-left: -200px;
+    position: fixed;
+    left: 50%;
+    top: -100%;
+    z-index: 11;
+    width: 360px;
+    -webkit-transform: translate(0, -500%);
+    -ms-transform: translate(0, -500%);
+    transform: translate(0, -500%);
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -moz-transition: -moz-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+  }
+  .jquery-modal-body {
+    padding: 20px;
+  }
+  .jquery-modal-header,
+  .jquery-modal-footer {
+    padding: 10px 20px;
+  }
+  .jquery-modal-header {
+    border-bottom: #eee solid 1px;
+  }
+  .jquery-modal-header h2 {
+    font-size: 20px;
+  }
+  .jquery-modal-footer {
+    border-top: #eee solid 1px;
+    text-align: right;
+  }
+
+ 
+  .social-icons {
+    text-align: center;
+    }  
+  .social-icons li {
+    display:inline-block;
+    list-style-type:none;
+    
+    }
+  
+  .social-icons li img {
+    margin-right: 20px;
+  }
+  .social-icons:hover img {
+    transform:scale(50px)
+  }
