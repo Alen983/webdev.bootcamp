@@ -9,5 +9,4 @@ IntroSpect is an imaginary brand/company that showcases photographic talents to 
 ## Technologies
 - basic HTML,CSS and basic JS
 - Bootstrap
-
-Website Hosted at : https://alen983.github.io/webdev.github.io
+-Website Hosted at : https://alen983.github.io/webdev.github.io
