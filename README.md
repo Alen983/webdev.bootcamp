@@ -1,4 +1,5 @@
-# webdev.bootcamp  
+# Web Development Introspect 
+## webdev.bootcamp  
 
 ## Description
 IntroSpect is an imaginary brand/company that showcases photographic talents to the world.
