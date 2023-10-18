@@ -12,3 +12,7 @@ Introspect has allowed me to explore more about Web Development.
 - basic HTML,CSS and basic JS
 - Bootstrap
 - Website Hosted at : https://alen983.github.io/webdev.github.io
+
+## License
+
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
