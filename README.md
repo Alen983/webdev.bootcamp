@@ -1,11 +1,11 @@
 # webdev.bootcamp  
 
-# Description
+## Description
 IntroSpect is an imaginary brand/company that showcases photographic talents to the world.
 - Project built as a part of Bootcamp.
 - Loosely built website,with basic HTML,CSS and basic JS.
  
-# Technologies
+## Technologies
 - basic HTML,CSS and basic JS
 - Bootstrap
 
